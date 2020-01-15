@@ -1,0 +1,17 @@
+# config file  to make curved filaments
+# All linear interpolations between center and edge
+setup:
+    Rmax: 500
+    number: 500
+    Zmax: 300
+    step: 3
+    random_rotation: 1
+
+# Radius of curvature
+curvature_radius:
+    center: 150
+    edge: 250
+ # filament length
+length:
+    center: 100
+    edge: 200
